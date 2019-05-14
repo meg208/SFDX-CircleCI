@@ -5,5 +5,4 @@
     <tab>standard-Workspace</tab>
     <tab>standard-ContentSearch</tab>
     <tab>standard-ContentSubscriptions</tab>
-    <tab>Fruit__c</tab>
 </CustomApplication>

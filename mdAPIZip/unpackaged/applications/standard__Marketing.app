@@ -8,5 +8,4 @@
     <tab>standard-Opportunity</tab>
     <tab>standard-report</tab>
     <tab>standard-Dashboard</tab>
-    <tab>Fruit__c</tab>
 </CustomApplication>

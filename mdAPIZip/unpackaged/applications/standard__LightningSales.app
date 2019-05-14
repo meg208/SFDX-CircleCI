@@ -18,5 +18,4 @@
     <tab>standard-OtherUserProfile</tab>
     <tab>standard-Case</tab>
     <tab>standard-Forecasting3</tab>
-    <tab>Fruit__c</tab>
 </CustomApplication>

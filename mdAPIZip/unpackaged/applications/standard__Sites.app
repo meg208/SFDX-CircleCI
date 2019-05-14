@@ -3,5 +3,4 @@
     <defaultLandingTab>standard-home</defaultLandingTab>
     <tab>standard-Chatter</tab>
     <tab>standard-Sites</tab>
-    <tab>Fruit__c</tab>
 </CustomApplication>

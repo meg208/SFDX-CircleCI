@@ -172,11 +172,7 @@
     <tab>standard-Case</tab>
     <tab>standard-Opportunity</tab>
     <tab>standard-Lead</tab>
-    <tab>Fruit__c</tab>
     <workspaceMappings>
-        <mapping>
-            <tab>Fruit__c</tab>
-        </mapping>
         <mapping>
             <tab>standard-Account</tab>
         </mapping>

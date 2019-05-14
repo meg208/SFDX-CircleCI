@@ -6,5 +6,4 @@
     <tab>standard-OtherUserProfile</tab>
     <tab>standard-CollaborationGroup</tab>
     <tab>standard-File</tab>
-    <tab>Fruit__c</tab>
 </CustomApplication>
