@@ -17,12 +17,6 @@
         <name>ApexTrigger</name>
     </types>
     <types>
-        <members>Account</members>
-        <members>Case</members>
-        <members>Contact</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
         <members>*</members>
         <name>CustomObject</name>
     </types>
