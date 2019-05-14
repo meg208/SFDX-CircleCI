@@ -6,12 +6,21 @@
             "package": "mypackage",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT"
+        },
+        {
+            "path": "force-app",
+            "package": "FruitObject",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false
         }
     ],
     "namespace": "",
     "sfdcLoginUrl": "https://login.salesforce.com",
     "sourceApiVersion": "43.0",
     "packageAliases": {
-        "mypackage": "0Ho0o000000fxhkCAA"
+        "mypackage": "0Ho0o000000fxhkCAA",
+        "FruitObject": "0Ho0o000000fxhpCAA",
+        "FruitObject@0.1.0-1": "04t0o000003OCtTAAW"
     }
 }
