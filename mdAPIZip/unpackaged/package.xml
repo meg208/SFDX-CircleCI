@@ -213,7 +213,7 @@
         <name>RecordType</name>
     </types>
     <types>
-        <members>*</members>
+        <members>*</members>d
         <name>RemoteSiteSetting</name>
     </types>
     <types>
