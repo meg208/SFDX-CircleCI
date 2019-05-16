@@ -1,3 +1,3 @@
 public class AbClass {
-//for testing git merge1
+//for testing git merge2
 }
