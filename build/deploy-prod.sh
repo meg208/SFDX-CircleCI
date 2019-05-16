@@ -3,4 +3,4 @@ echo "Converting to MDAPI format..."
 sfdx force:source:convert -d deploy_prod -r force-app 
 #Deploy to prod & run all tests
 echo "Deploying to production & running all tests..."
-sfdx force:mdapi:deploy -u DevHub -d ./mdAPIZip/unpackaged -w -1 -l -r RunAllTestsInOrg
+sfdx force:mdapi:deploy -u DevHub -d ./mdAPIZip/unpackaged -w -1 -l --testlevel RunAllTestsInOrg
