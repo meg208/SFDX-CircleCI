@@ -8,4 +8,4 @@ echo "Authenticating..."
 sfdx force:auth:jwt:grant --clientid $SFDC_PROD_CLIENTID --jwtkeyfile keys/server.key --username $SFDC_PROD_USER --setdefaultdevhubusername -a DevHub
 
 #Create a scratch org
-echo "Creating the Scratch Org..."
+echo "Authentication Success!"
