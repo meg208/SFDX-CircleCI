@@ -48,30 +48,25 @@
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableReports>false</enableReports>
-    <enableSearch>true</enableSearch>
+    <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
-        <fullName>Country__c</fullName>
+        <fullName>Source__c</fullName>
         <externalId>false</externalId>
-        <label>Country</label>
+        <label>Source</label>
         <length>100</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
     </fields>
-    <label>Fruit</label>
-    <listViews>
-        <fullName>All</fullName>
-        <filterScope>Everything</filterScope>
-        <label>All</label>
-    </listViews>
+    <label>Circle CI Test</label>
     <nameField>
-        <label>Fruits Name</label>
+        <label>Abc Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Fruits</pluralLabel>
+    <pluralLabel>Circle CI Tests</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
