@@ -37,5 +37,17 @@
         <members>*</members>
         <name>FlexiPage</name>
     </types>
+    <types>
+        <members>*</members>
+        <name>HomePageComponent</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>HomePageLayout</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Profile</name>
+    </types>
     <version>39.0</version>
 </Package>

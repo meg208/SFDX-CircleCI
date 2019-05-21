@@ -18,6 +18,7 @@
         <members>*</members>
         <name>ApexPage</name>
     </types>
+     
     <types>
         <members>*</members>
         <name>ApexTrigger</name>
@@ -30,16 +31,6 @@
         <members>*</members>
         <name>FlexiPage</name>
     </types>
-    <types>
-        <members>*</members>
-        <name>CustomTab</name>
-    </types>
-    
-    <types>
-    <members>ClientApp</members>
-    <members>RegistrationApp</members>
-    <name>CustomApplication</name>
-    </types>
-
+   
     <version>39.0</version>
 </Package>

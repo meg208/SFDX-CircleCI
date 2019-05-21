@@ -41,6 +41,8 @@ workflows:
                 - master
                 - dev1
                 - Dev1
+                - Scrach2
+                - Scrach1
       - deploy-prod:
           filters:
             branches:
