@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <applicationVisibilities>
-        <application>Fruit_Bazar</application>
+        <application>ClientApp</application>
         <default>false</default>
         <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
-        <application>Fruit_Market</application>
-        <default>false</default>
-        <visible>false</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
-        <application>Fruit_Market1</application>
-        <default>false</default>
-        <visible>false</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
-        <application>TrainingApp</application>
+        <application>RegistrationApp</application>
         <default>false</default>
         <visible>false</visible>
     </applicationVisibilities>
@@ -83,6 +73,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>College__c.Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Fruit__c.Country__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -106,6 +101,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Circle_CI_Test__c-Circle CI Test Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>College__c-College Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Fruit__c-Fruit Layout</layout>
