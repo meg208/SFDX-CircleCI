@@ -40,8 +40,6 @@ workflows:
               ignore:
                 - master
                 - dev1
-                - Dev1
-                - Sorg1
       - deploy-prod:
           filters:
             branches:
