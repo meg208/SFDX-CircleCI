@@ -41,10 +41,10 @@ workflows:
                 - master
                 - dev1
                 - Dev1
-                - scrach2
                 - scrach1
+                - scrach2
       - deploy-prod:
           filters:
             branches:
-              only:
+              only: 
                 - master
