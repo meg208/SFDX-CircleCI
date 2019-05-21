@@ -7,11 +7,11 @@
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
-    <label>Fruit Market</label>
+    <label>RegistrationApp</label>
     <navType>Standard</navType>
+    <tabs>standard-home</tabs>
     <tabs>standard-Account</tabs>
-    <tabs>Fruit__c</tabs>
-    <tabs>standard-Contact</tabs>
+    <tabs>Candidate__c</tabs>
     <uiType>Lightning</uiType>
-    <utilityBar>Fruit_Market_UtilityBar1</utilityBar>
+    <utilityBar>TrainingApp_UtilityBar</utilityBar>
 </CustomApplication>

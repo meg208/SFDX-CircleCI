@@ -15,17 +15,122 @@
         <default>false</default>
         <visible>false</visible>
     </applicationVisibilities>
+    <applicationVisibilities>
+        <application>TrainingApp</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <classAccesses>
+        <apexClass>AbClass</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Circle_CI</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CreateCandidateRecord</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>HelloWorld</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>HelloWorldTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>SampleApp</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>TestCandidate</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>TestHelloWorld</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>createTraining</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>testCreateTraining</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
     <custom>true</custom>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Candidate__c.Email__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Candidate__c.Last_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Candidate__c.SSN__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Circle_CI_Test__c.Source__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>Fruit__c.Country__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Training__c.Fee__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Training__c.Triner_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Training__c.Trining_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <layoutAssignments>
+        <layout>Candidate__c-candidate Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Circle_CI_Test__c-Circle CI Test Layout</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>Fruit__c-Fruit Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>Training__c-Training Layout</layout>
+    </layoutAssignments>
+    <pageAccesses>
+        <apexPage>SampleVFpage</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <tabVisibilities>
+        <tab>Candidate__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>Fruit__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Hello</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Training__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>

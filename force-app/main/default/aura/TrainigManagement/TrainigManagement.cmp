@@ -1,0 +1,26 @@
+<aura:component controller="createTraining" 
+				implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,
+							force:hasRecordId,forceCommunity:availableForAllPageTypes" 
+				access="global" >
+    
+    
+    <!-- Define Attribute-->
+    <aura:attribute name="Training" type="Training__c" default="{'sobjectType': 'Training__c',
+                         'Triner_Name__c': '',
+                         'Trining_Name__c': '',
+                         'Fee__c': '' 
+                       }"/>
+    <div class="slds-scope">
+        <h3>Please Enter The Candidate Information</h3>
+        <div class="slds-form-element">
+            <ui:inputText class="slds-input" label='Trainer Name' labelClass="slds-form-element__lable" value="{!v.Training.Triner_Name__c}"/>
+        </div>
+        <div class="slds-form-element">
+             <ui:inputText class="slds-input" label='Training Name' labelClass="slds-form-element__lable" value="{!v.Training.Trining_Name__c}"/>
+        </div>
+        <div class="slds-form-element">
+            <ui:inputText class="slds-input" label='Fee' labelClass="slds-form-element__lable" value="{!v.Training.Fee__c}"/>
+        </div>
+        <lightning:button variant="brand" label="Create" onclick="{!c.create}" />
+    </div>
+</aura:component>
