@@ -21,8 +21,28 @@
         <name>AuraDefinitionBundle</name>
     </types>
     <types>
+        <members>ClientApp</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
         <members>*</members>
         <name>CustomObject</name>
+    </types>
+    <types>
+        <members>API name of the Object</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>Admin</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>Admin</members>
+        <name>profile</name>
     </types>
     <version>39.0</version>
 </Package>
