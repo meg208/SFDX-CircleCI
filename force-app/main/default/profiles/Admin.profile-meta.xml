@@ -23,6 +23,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>Class2A</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>ClassA</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -52,6 +56,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>TestHelloWorld</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Varificationclass</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -137,6 +145,16 @@
         <field>Training__c.Trining_Name__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>verification__c.Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>verification__c.Verification_Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Animal__c-Animal Layout</layout>
     </layoutAssignments>
@@ -157,6 +175,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Training__c-Training Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>verification__c-verification Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -221,6 +242,15 @@
         <object>Training__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>verification__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
     <pageAccesses>
         <apexPage>SampleVFpage</apexPage>
         <enabled>true</enabled>
@@ -231,6 +261,10 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>VFpageB</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>VerificationPage</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <tabVisibilities>
