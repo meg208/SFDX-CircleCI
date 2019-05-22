@@ -1,4 +1,4 @@
-<aura:component controller="ContactAura">
+<aura:component >
     <aura:attribute name="contactRows" type="Object[]"/>
     <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
     <div class="container">
