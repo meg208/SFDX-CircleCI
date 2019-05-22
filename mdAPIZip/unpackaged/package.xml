@@ -21,33 +21,12 @@
         <name>AuraDefinitionBundle</name>
     </types>
     <types>
-        <members>ClientApp</members>
-        <members>RegistrationApp</members>
-        <name>CustomApplication</name>
-    </types>
-    <types>
         <members>*</members>
         <name>CustomObject</name>
     </types>
     <types>
         <members>*</members>
-        <name>CustomTab</name>
-    </types>
-    <types>
-        <members>*</members>
         <name>FlexiPage</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>HomePageComponent</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>HomePageLayout</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>Profile</name>
     </types>
     <version>39.0</version>
 </Package>
