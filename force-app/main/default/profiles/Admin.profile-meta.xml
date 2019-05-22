@@ -19,6 +19,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>ContactAura</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>CreateCandidateRecord</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -47,23 +51,17 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>testContactAura</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>testCreateTraining</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Candidate__c.Email__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Candidate__c.Last_Name__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Candidate__c.SSN__c</field>
+        <field>Candidate__c.First_Name__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -74,6 +72,16 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Fruit__c.Country__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Seller__c.Item__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Seller__c.Name__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -92,26 +100,17 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
-        <layout>Candidate__c-candidate Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Circle_CI_Test__c-Circle CI Test Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Fruit__c-Fruit Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Seller__c-Seller Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Training__c-Training Layout</layout>
     </layoutAssignments>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>Candidate__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -136,6 +135,15 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>Seller__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>Training__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -143,10 +151,10 @@
         <apexPage>SampleVFpage</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
-    <tabVisibilities>
-        <tab>Candidate__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
+    <pageAccesses>
+        <apexPage>TestPageFromDSampleScratch</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
     <tabVisibilities>
         <tab>Fruit__c</tab>
         <visibility>DefaultOn</visibility>
