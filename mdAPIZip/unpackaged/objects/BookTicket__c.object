@@ -48,7 +48,7 @@
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableReports>false</enableReports>
-    <enableSearch>false</enableSearch>
+    <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
@@ -71,12 +71,13 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
-    <label>Animal</label>
+    <label>BookTicket</label>
     <nameField>
-        <label>Animal Id</label>
-        <type>Text</type>
+        <displayFormat>A-{0000}</displayFormat>
+        <label>BookTicket ID</label>
+        <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Animals</pluralLabel>
+    <pluralLabel>BookTickets</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
