@@ -6,26 +6,6 @@
         <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
-<<<<<<< HEAD
-        <application>Fruit_Market</application>
-        <default>false</default>
-        <visible>false</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
-        <application>Fruit_Market1</application>
-        <default>false</default>
-        <visible>false</visible>
-    </applicationVisibilities>
-    <custom>true</custom>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Fruit__c.Country__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <layoutAssignments>
-        <layout>Fruit__c-Fruit Layout</layout>
-    </layoutAssignments>
-=======
         <application>RegistrationApp</application>
         <default>false</default>
         <visible>false</visible>
@@ -148,7 +128,6 @@
         <apexPage>TestPageFromDSampleScratch</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
->>>>>>> scrach2
     <tabVisibilities>
         <tab>Fruit__c</tab>
         <visibility>Hidden</visibility>
