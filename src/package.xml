@@ -35,11 +35,7 @@
         <name>CustomTab</name>
     </types>
     
-    <types>
-    <members>ClientApp</members>
-    <members>RegistrationApp</members>
-    <name>CustomApplication</name>
-    </types>
+   
 
     <version>39.0</version>
 </Package>
