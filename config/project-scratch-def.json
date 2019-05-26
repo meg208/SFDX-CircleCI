@@ -1,6 +1,7 @@
 {
     "orgName": "mickwheeler Company",
     "edition": "Developer",
+    "features": ["AddCustomTabs:30","ProcessBuilder","PersonAccounts"],
     "orgPreferences" : {
         "enabled": ["S1DesktopEnabled"]
     }
